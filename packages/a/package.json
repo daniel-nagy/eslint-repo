@@ -9,7 +9,7 @@
   "scripts": {
     "clean": "rm -rf build",
     "build": "tsc --project tsconfig.json",
-    "typetest": "bun eslint src/**/*.typetest.ts"
+    "typetest": "yarn eslint src/**/*.typetest.ts"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.5",

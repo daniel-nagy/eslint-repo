@@ -4,6 +4,6 @@
     "packages/*"
   ],
   "scripts": {
-    "prepare": "bun run --cwd packages/a build"
+    "prepare": "yarn workspace a run build"
   }
 }
